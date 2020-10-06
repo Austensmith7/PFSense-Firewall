@@ -1,0 +1,10 @@
+10/5/2020
+-Flashed CF Card with PFSense
+-Installed PFSense from CF Card to SSD, removed CF Card
+-Configured PFSense LAN and WAN
+
+10/6/2020
+-ISSUE: Assigned Firewall LAN IPV4 address to 192.168.0.1, no longer can access Router settings through the default gateway.
+  -Attempt Fix 1: Changed LAN IPV4 address to 192.168.0.2, still unable to access Router settings.
+    -Discovery 1: 192.168.1.1 will still show basic router info
+    -Discovery 2: Default Gateway for Router is now set to fe80::8078:71ff:fe3d:e33f%9, IPV6 address
